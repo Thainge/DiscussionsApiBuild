@@ -16,10 +16,6 @@ builder.Services.AddStackExchangeRedisCache(options =>
     options.InstanceName = "SampleInstance";
 });
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -27,13 +23,6 @@ builder.Services.AddControllersWithViews();
 builder.Logging.AddAzureWebAppDiagnostics();
 
 var app = builder.Build();
-
-// Auto migrations
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    db.Database.Migrate();
-}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
