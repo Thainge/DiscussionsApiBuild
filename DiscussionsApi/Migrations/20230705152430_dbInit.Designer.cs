@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DiscussionsApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230705144021_dbInit")]
+    [Migration("20230705152430_dbInit")]
     partial class dbInit
     {
         /// <inheritdoc />
@@ -86,7 +86,7 @@ namespace DiscussionsApi.Migrations
                             Id = 1,
                             Author = "Llorence",
                             Comments = 4,
-                            DateCreated = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(91),
+                            DateCreated = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(1976),
                             Description = "For decades Team Rainbow has been the shield against the worst global threats.Now they face the\r\n                  greatest terror yet = a mutating alien parasite known as the Archæans.\r\n\r\n                  It’s now time for you and your teammates to breach into the alien containment zone and face this\r\n                  new\r\n                  threat head - on in Rainbow Six Extraction releasing ON SALE from today June 15th to June 23rd.\r\n\r\n                  Rainbow Six Extraction Standard Edition includes the Base Game and the Buddy Pass.\r\n                  The Deluxe Edition includes the Base Game the Buddy Pass as well as 3 Epic gear sets and XP\r\n                  boosters\r\n                  to\r\n                  amp up your game as you play alone or with friends.\r\n\r\n                  No matter which edition you pick up you’ll get extra benefits in Rainbow Six Extraction.\r\n\r\n                  Rainbow Six Siege Players Benefit Even More\r\n\r\n                  Rainbow Six Extraction stars 20 Operators recruited from the ranks of Rainbow Six Siege to join\r\n                  REACT\r\n                  the organization led by Mira Ash and Thermite to confront the Archæans.Players who own Siege\r\n                  and\r\n                  purchase Extraction will be granted the United Front bundle which contains four exclusive gear\r\n                  sets\r\n                  split between the two games.Furthermore the United Front bundle will immediately unlock all 20\r\n                  Operators featured in Extraction for use in Rainbow Six Siege.",
                             Title = "My thoughts on Rainbow Six Siege",
                             Votes = 75
@@ -96,7 +96,7 @@ namespace DiscussionsApi.Migrations
                             Id = 2,
                             Author = "Breezy",
                             Comments = 4,
-                            DateCreated = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(133),
+                            DateCreated = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2019),
                             Description = "For decades Team Rainbow has been the shield against the worst global threats.Now they face the\r\n                  greatest terror yet = a mutating alien parasite known as the Archæans.\r\n\r\n                  It’s now time for you and your teammates to breach into the alien containment zone and face this\r\n                  new\r\n                  threat head - on in Rainbow Six Extraction releasing ON SALE from today June 15th to June 23rd.\r\n\r\n                  Rainbow Six Extraction Standard Edition includes the Base Game and the Buddy Pass.\r\n                  The Deluxe Edition includes the Base Game the Buddy Pass as well as 3 Epic gear sets and XP\r\n                  boosters\r\n                  to\r\n                  amp up your game as you play alone or with friends.\r\n\r\n                  No matter which edition you pick up you’ll get extra benefits in Rainbow Six Extraction.\r\n\r\n                  Rainbow Six Siege Players Benefit Even More\r\n\r\n                  Rainbow Six Extraction stars 20 Operators recruited from the ranks of Rainbow Six Siege to join\r\n                  REACT\r\n                  the organization led by Mira Ash and Thermite to confront the Archæans.Players who own Siege\r\n                  and\r\n                  purchase Extraction will be granted the United Front bundle which contains four exclusive gear\r\n                  sets\r\n                  split between the two games.Furthermore the United Front bundle will immediately unlock all 20\r\n                  Operators featured in Extraction for use in Rainbow Six Siege.",
                             Title = "My thoughts on Rainbow Six Siege",
                             Votes = 12
@@ -106,7 +106,7 @@ namespace DiscussionsApi.Migrations
                             Id = 3,
                             Author = "Swiggity Swagger",
                             Comments = 4,
-                            DateCreated = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(136),
+                            DateCreated = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2022),
                             Description = "For decades Team Rainbow has been the shield against the worst global threats.Now they face the\r\n                  greatest terror yet = a mutating alien parasite known as the Archæans.\r\n\r\n                  It’s now time for you and your teammates to breach into the alien containment zone and face this\r\n                  new\r\n                  threat head - on in Rainbow Six Extraction releasing ON SALE from today June 15th to June 23rd.\r\n\r\n                  Rainbow Six Extraction Standard Edition includes the Base Game and the Buddy Pass.\r\n                  The Deluxe Edition includes the Base Game the Buddy Pass as well as 3 Epic gear sets and XP\r\n                  boosters\r\n                  to\r\n                  amp up your game as you play alone or with friends.\r\n\r\n                  No matter which edition you pick up you’ll get extra benefits in Rainbow Six Extraction.\r\n\r\n                  Rainbow Six Siege Players Benefit Even More\r\n\r\n                  Rainbow Six Extraction stars 20 Operators recruited from the ranks of Rainbow Six Siege to join\r\n                  REACT\r\n                  the organization led by Mira Ash and Thermite to confront the Archæans.Players who own Siege\r\n                  and\r\n                  purchase Extraction will be granted the United Front bundle which contains four exclusive gear\r\n                  sets\r\n                  split between the two games.Furthermore the United Front bundle will immediately unlock all 20\r\n                  Operators featured in Extraction for use in Rainbow Six Siege.",
                             Title = "My thoughts on Rainbow Six Siege",
                             Votes = 134
@@ -116,7 +116,7 @@ namespace DiscussionsApi.Migrations
                             Id = 4,
                             Author = "Mystic",
                             Comments = 4,
-                            DateCreated = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(138),
+                            DateCreated = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2024),
                             Description = "For decades Team Rainbow has been the shield against the worst global threats.Now they face the\r\n                  greatest terror yet = a mutating alien parasite known as the Archæans.\r\n\r\n                  It’s now time for you and your teammates to breach into the alien containment zone and face this\r\n                  new\r\n                  threat head - on in Rainbow Six Extraction releasing ON SALE from today June 15th to June 23rd.\r\n\r\n                  Rainbow Six Extraction Standard Edition includes the Base Game and the Buddy Pass.\r\n                  The Deluxe Edition includes the Base Game the Buddy Pass as well as 3 Epic gear sets and XP\r\n                  boosters\r\n                  to\r\n                  amp up your game as you play alone or with friends.\r\n\r\n                  No matter which edition you pick up you’ll get extra benefits in Rainbow Six Extraction.\r\n\r\n                  Rainbow Six Siege Players Benefit Even More\r\n\r\n                  Rainbow Six Extraction stars 20 Operators recruited from the ranks of Rainbow Six Siege to join\r\n                  REACT\r\n                  the organization led by Mira Ash and Thermite to confront the Archæans.Players who own Siege\r\n                  and\r\n                  purchase Extraction will be granted the United Front bundle which contains four exclusive gear\r\n                  sets\r\n                  split between the two games.Furthermore the United Front bundle will immediately unlock all 20\r\n                  Operators featured in Extraction for use in Rainbow Six Siege.",
                             Title = "My thoughts on Rainbow Six Siege",
                             Votes = 37
@@ -157,7 +157,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Swiggity Swagger",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 1,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(259)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2125)
                         },
                         new
                         {
@@ -165,7 +165,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Breezy",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 1,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(263)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2128)
                         },
                         new
                         {
@@ -173,7 +173,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Llorence",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 1,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(265)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2131)
                         },
                         new
                         {
@@ -181,7 +181,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Mystic",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 1,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(267)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2132)
                         },
                         new
                         {
@@ -189,7 +189,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Swiggity Swagger",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 2,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(269)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2134)
                         },
                         new
                         {
@@ -197,7 +197,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Breezy",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 2,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(271)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2136)
                         },
                         new
                         {
@@ -205,7 +205,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Llorence",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 2,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(273)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2138)
                         },
                         new
                         {
@@ -213,7 +213,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Mystic",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 2,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(275)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2140)
                         },
                         new
                         {
@@ -221,7 +221,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Swiggity Swagger",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 3,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(277)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2142)
                         },
                         new
                         {
@@ -229,7 +229,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Breezy",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 3,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(279)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2144)
                         },
                         new
                         {
@@ -237,7 +237,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Llorence",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 3,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(281)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2146)
                         },
                         new
                         {
@@ -245,7 +245,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Mystic",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 3,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(283)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2148)
                         },
                         new
                         {
@@ -253,7 +253,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Swiggity Swagger",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 4,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(284)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2150)
                         },
                         new
                         {
@@ -261,7 +261,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Breezy",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 4,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(286)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2151)
                         },
                         new
                         {
@@ -269,7 +269,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Llorence",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 4,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(288)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2153)
                         },
                         new
                         {
@@ -277,7 +277,7 @@ namespace DiscussionsApi.Migrations
                             Author = "Mystic",
                             Comment = "I am split between the two games. Furthermore the United Front bundle will immediately unlock all 20 Operators featured in Extraction for use in Rainbow Six Siege.",
                             DiscussionPostId = 4,
-                            PostedDate = new DateTime(2023, 7, 5, 10, 40, 21, 824, DateTimeKind.Local).AddTicks(290)
+                            PostedDate = new DateTime(2023, 7, 5, 11, 24, 30, 513, DateTimeKind.Local).AddTicks(2155)
                         });
                 });
 
